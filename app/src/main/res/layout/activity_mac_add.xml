@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <TextView
+        style="@style/MacAddText"
+        android:text="@string/please_input_mac_address"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_mac1"
+            style="@style/MacAddEditText"/>
+
+        <TextView style="@style/MacAddText"/>
+
+        <EditText
+            android:id="@+id/et_mac2"
+            style="@style/MacAddEditText"/>
+
+        <TextView style="@style/MacAddText"/>
+
+        <EditText
+            android:id="@+id/et_mac3"
+            style="@style/MacAddEditText"/>
+
+        <TextView style="@style/MacAddText"/>
+
+        <EditText
+            android:id="@+id/et_mac4"
+            style="@style/MacAddEditText"/>
+
+        <TextView style="@style/MacAddText"/>
+
+        <EditText
+            android:id="@+id/et_mac5"
+            style="@style/MacAddEditText"/>
+
+        <TextView style="@style/MacAddText"/>
+
+        <EditText
+            android:id="@+id/et_mac6"
+            style="@style/MacAddEditText"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/add"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">路由客家</string>
+    <string name="please_input_mac_address">请输入要添加的MAC地址</string>
+    <string name="add">添加</string>
+    <string name="please_input_mac_address2">请输入MAC地址</string>
+    <string name="please_input_mac_right">请正确输入MAC地址</string>
+    <string name="the_mac_is_alread_exited">这个MAC地址已经存在，请输入其他MAC地址</string>
+    <string name="reset_success">重置成功</string>
+</resources>
